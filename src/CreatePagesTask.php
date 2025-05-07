@@ -12,10 +12,14 @@ class CreatePagesTask extends BuildTask
 {
     protected static string $commandName = 'CreatePagesTask';
 
+    // this will make 16,000 pages
     private const NUM_LEVEL_1 = 20;
-    private const NUM_LEVEL_2 = 40;
-    private const NUM_LEVEL_3 = 60;
-    private const VALUES_SIZE = 500; // will be double this for _Versions table
+    private const NUM_LEVEL_2 = 20;
+    private const NUM_LEVEL_3 = 40;
+
+    // number of sets of values to insert at a time per sql query
+    // will be double this number when inserting into _Versions table
+    private const VALUES_SIZE = 500; 
 
     private $draftValues = [];
     private $liveValues = [];
