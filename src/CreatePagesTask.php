@@ -13,6 +13,7 @@ class CreatePagesTask extends BuildTask
     protected static string $commandName = 'CreatePagesTask';
 
     // this will make 16,000 pages
+    // do not exceed more than 99 pages per level otherwise the page title will get duplicated
     private const NUM_LEVEL_1 = 20;
     private const NUM_LEVEL_2 = 20;
     private const NUM_LEVEL_3 = 40;
