@@ -1,0 +1,16 @@
+{
+    "name": "emteknetnz/silverstripe-data-generator",
+    "description": "A SilverStripe module for creating test data.",
+    "type": "silverstripe-vendormodule",
+    "license": "MIT",
+    "require": {
+        "silverstripe/framework": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "emteknetnz\\DataGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
