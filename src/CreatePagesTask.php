@@ -10,6 +10,8 @@ use SilverStripe\ORM\DB;
 
 class CreatePagesTask extends BuildTask
 {
+    protected static string $commandName = 'CreatePagesTask';
+
     private const NUM_LEVEL_1 = 20;
     private const NUM_LEVEL_2 = 40;
     private const NUM_LEVEL_3 = 60;
