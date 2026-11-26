@@ -4,7 +4,7 @@ This is a SilverStripe module for creating test data
 
 ## Requirements
 
-Silverstripe CMS 6
+Silverstripe CMS 6 or 7
 
 ## Installation
 

@@ -4,7 +4,7 @@
     "type": "silverstripe-vendormodule",
     "license": "MIT",
     "require": {
-        "silverstripe/framework": "^6"
+        "silverstripe/framework": "^6 || ^7"
     },
     "autoload": {
         "psr-4": {
